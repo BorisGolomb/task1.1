@@ -1,8 +1,8 @@
-package com.golomb.helloworld;
+package com.golomb.calculator;
 
-import org.apache.commons.lang3.StringUtils;
+import java.util.Scanner;
 
-public class HelloWorld {
+public class Calculator {
     public static void main(String[] args) {
         String testString = "Hello, world";
         System.out.println(StringUtils.isNotBlank(testString));
